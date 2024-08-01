@@ -2,13 +2,18 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 20%
+    right: 75%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 61%
+    right: 60%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 31%
+    right: 10%
 
 
 @keyframes float1
@@ -17,4 +22,114 @@
 
   100%
     transform: translateY(0px)
+//FONDOS INTRO 
+
+.fondo-intro
+  background-image: url(../assets/curso/temas/fondo-intro.png)
+  background-position:  start
+  background-repeat: no-repeat
+  background-size: 100%
+.fondo-1
+  background-image: url(../assets/curso/temas/fondo-1.png)
+  background-position:  start
+  background-repeat: no-repeat
+  background-size: cover
+.fondo-3
+  background-image: url(../assets/curso/temas/fondo-3.png)
+  background-position:  start
+  background-repeat: no-repeat
+  background-size: cover
+.tarjeta-personaje
+  background-image: url(../assets/curso/temas/tarjeta-personaje.svg)
+  background-position:  center
+  background-repeat: no-repeat
+  background-size: cover
+.fondo-slyder
+  background-image: url(../assets/curso/temas/fondio-slyder.svg)
+  background-position:  center
+  background-repeat: no-repeat
+  background-size: cover
+
+
+.card-star
+  background-image: url(../assets/curso/temas/card-start2.svg)
+  background-position:  start
+  background-repeat: no-repeat
+  background-size: cover
+  transition: all .2s ease-in-out
+  p
+    color: $white
+  &:hover
+    background-image: url(../assets/curso/temas/card-star.svg)
+    p
+      color: $color-sistema-texto
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: $color-acento-botones
+  opacity: 1
+  border: 0
+.slyder-a__bullets__item
+  background-color: #ffeeb6
+  border: 0
+.slyder-a__bullets__item--active
+  background-color: #FECE2F
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tarjeta-linea
+  position: relative
+  background-color: #ffedb0
+  border-radius: 20px
+  display: flex
+  justify-content: center
+  align-items: center
+  padding: 3rem
+  &:before
+    content: ''
+    position: absolute
+    background-color: #8746f8
+    width: 106px
+    height: 9px
+    top: 0
+    left: 0
+    transform: translateX(30px) translateY(20px)
+.tarjeta-linea2
+  position: relative
+  background-color: #d7faf6
+  border-radius: 20px
+  display: flex
+  justify-content: center
+  align-items: center
+  padding: 3rem
+  &:before
+    content: ''
+    position: absolute
+    background-color: #8746f8
+    width: 106px
+    height: 9px
+    top: 0
+    left: 0
+    transform: translateX(30px) translateY(20px)
+h4.color-morado 
+  color: $color-primario
+span.color-morado 
+  color: $color-primario
+  font-weight: bold
+.bloque-texto-d.color-primario:before 
+  opacity: .15
+.mn
+  margin: 0 -3rem
+    
+
 

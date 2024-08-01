@@ -1,17 +1,22 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Administración del recurso humano',
+    descripcionCurso:
+      'El presente componente formativo, detalla la importancia de la administración del talento humano en la organización moderna, abordando conceptos, definiciones, y procesos esenciales como reclutamiento, selección, contratación, capacitación, y evaluación de desempeño. Destaca la necesidad de ver a los empleados como colaboradores proactivos y líderes potenciales, esenciales para el éxito y competitividad empresarial en un entorno globalizado.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/a1.svg'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/a2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/a3.svg'),
       },
     ],
   },
@@ -31,13 +36,20 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo:
+          'Conceptos y definiciones de la administración del talento humano',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo:
+              'Proceso de búsqueda de la información evaluación y síntesis de las fuentes',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Definición de la administración del talento humano',
+            hash: 't_1_2',
           },
         ],
       },
@@ -45,13 +57,13 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Procesos de la administración del talento humano',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Funciones del área de talento humano',
         desarrolloContenidos: true,
       },
     ],
