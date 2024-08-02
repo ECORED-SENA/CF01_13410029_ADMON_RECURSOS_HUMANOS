@@ -11,115 +11,303 @@
 <script>
 import Actividad from '@/components/actividad/Actividad'
 export default {
-  name: 'ActividadDidactica',
+  name: 'ConocimientosBSicosDeLaAdministraciNDelRecursoHumano',
   components: { Actividad },
   data: () => ({
     cuestionario: {
-      tema: 'Manejo de los residuos sólidos en la producción avícola.',
+      tema: 'Administración del recurso humano.',
       titulo: 'Cuestionario',
       introduccion:
-        'Lea cada enunciado y luego seleccione la respuesta correcta según corresponda.',
+        'Lea la pregunta de cada ítem y seleccione la respuesta correcta.',
       barajarPreguntas: false,
       preguntas: [
         {
           id: 1,
           texto:
-            'Cuáles son los tipos de explotación en los sistemas productivos avícolas:',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
+            '¿Qué enfoque tiene la nueva administración gerencial respecto al ser humano en una organización?',
+          imagen: require('@/assets/componentes/preguntas img/Grupo 1102342.png'),
           barajarRespuestas: false,
-          opciones: [
-            { id: 'a', texto: 'Explotación intensiva', esCorrecta: false },
-            { id: 'b', texto: 'Explotación semi intensiva', esCorrecta: false },
-            {
-              id: 'c',
-              texto: 'Explotación extensiva o traspatio',
-              esCorrecta: false,
-            },
-            { id: 'd', texto: 'Todas la anteriores', esCorrecta: true },
-          ],
-          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
-          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
-        },
-        {
-          id: 2,
-          texto:
-            'Se lanzan dos proyectiles desde el suelo con la misma velocidad inicial, pero uno se lanza horizontalmente y el otro se lanza formando un ángulo de 45 grados con la horizontal. Considerando la resistencia del aire despreciable, ¿cuáles de las siguientes afirmaciones son verdaderas?',
-          imagen: require('@/assets/componentes/pregunta_2.png'),
-          barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Ambos proyectiles alcanzarán la misma altura máxima.',
+              texto: 'Ver al ser humano como una máquina más.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'El proyectil lanzado horizontalmente recorrerá una distancia horizontal mayor que el proyectil lanzado a 45 grados',
+                'Considerar al ser humano como un cliente interno y colaborador proactivo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Ignorar la participación del ser humano.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Enfocarse únicamente en la tecnología.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Has acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, tu respuesta no es la correcta.',
+        },
+        {
+          id: 2,
+          texto:
+            '¿Cuál es uno de los elementos clave en la gestión del talento humano?',
+          imagen: require('@/assets/componentes/preguntas img/Grupo 1102343.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Reducción de costos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Evaluación de desempeño.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Incremento de la producción.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Minimización del uso de recursos',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Has acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, tu respuesta no es la correcta.',
+        },
+        {
+          id: 3,
+          texto:
+            '¿Qué se entiende por administración del talento humano según Chiavenato?',
+          imagen: require('@/assets/componentes/preguntas img/Grupo 1102344.png'),
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Un conjunto de políticas para aumentar las ganancias de la empresa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Técnicas para promover el desempeño eficiente de una organización.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Estrategias de marketing y ventas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Métodos para reducir el número de empleados.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Has acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, tu respuesta no es la correcta.',
+        },
+        {
+          id: 4,
+          texto:
+            '¿Qué proceso NO es parte de la administración del talento humano?',
+          imagen: require('@/assets/componentes/preguntas img/Grupo 1102345.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Reclutamiento y selección.', esCorrecta: false },
+            {
+              id: 'b',
+              texto: 'Contratación y vinculación.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto:
-                'La velocidad horizontal del proyectil lanzado a 45 grados será mayor que la velocidad horizontal del proyectil lanzado horizontalmente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto:
-                'La velocidad total del proyectil lanzado a 45 grados en el punto más alto de su trayectoria será la misma que la velocidad horizontal del proyectil lanzado horizontalmente en cualquier punto de su trayectoria.',
+              texto: 'Análisis y descripción de cargos.',
               esCorrecta: false,
             },
+            { id: 'd', texto: 'Gestión de inventarios.', esCorrecta: true },
           ],
-          mensaje_correcto:
-            '¡Perfecto! Has seleccionado la respuesta correcta.',
-          mensaje_incorrecto: 'Esa no es la respuesta correcta. ¡Ánimo!',
-        },
-        {
-          id: 3,
-          texto: 'Texto de la tercera pregunta 3',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
-          opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: false },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: true },
-          ],
-          mensaje_correcto: '¡Muy bien! Esa es la respuesta correcta.',
-          mensaje_incorrecto: 'Respuesta incorrecta. ¡Inténtalo de nuevo!',
-        },
-        {
-          id: 4,
-          texto: 'Texto de la cuarta pregunta 4',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: true },
-            { id: 'b', texto: 'Opción B', esCorrecta: false },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
-          ],
-          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
-          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
+          mensaje_correcto: '¡Muy bien! Has acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, tu respuesta no es la correcta.',
         },
         {
           id: 5,
-          texto: 'Texto de la quinta pregunta 5',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          texto:
+            '¿Cuál es una de las responsabilidades del área de talento humano en una organización?',
+          imagen: require('@/assets/componentes/preguntas img/Grupo 1102346.png'),
           opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: true },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Administrar las finanzas de la empresa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Gestionar la contratación de personal.',
+              esCorrecta: true,
+            },
+            { id: 'c', texto: 'Supervisar la producción.', esCorrecta: false },
+            { id: 'd', texto: 'Diseñar productos nuevos', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
-          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
+          mensaje_correcto: '¡Muy bien! Has acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, tu respuesta no es la correcta.',
+        },
+        {
+          id: 6,
+          texto:
+            '¿Cuál es un objetivo de los colaboradores dentro de una organización?',
+          imagen: require('@/assets/componentes/preguntas img/Grupo 1102342.png'),
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Alcanzar sus objetivos personales e individuales.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Reducir sus horas de trabajo.',
+              esCorrecta: false,
+            },
+            { id: 'c', texto: 'Evitar la capacitación.', esCorrecta: false },
+            {
+              id: 'd',
+              texto: 'Minimizar su participación en actividades de equipo.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Has acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, tu respuesta no es la correcta.',
+        },
+        {
+          id: 7,
+          texto:
+            '¿Qué término se usa actualmente para referirse a las personas que trabajan en las organizaciones, según la administración gerencial?',
+          imagen: require('@/assets/componentes/preguntas img/Grupo 1102343.png'),
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Empleados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Obreros.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Talento humano.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Clientes internos.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Has acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, tu respuesta no es la correcta.',
+        },
+        {
+          id: 8,
+          texto:
+            '¿Cuál es una de las funciones del administrador del talento humano?',
+          imagen: require('@/assets/componentes/preguntas img/Grupo 1102344.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Planear, organizar, dirigir y controlar.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Diseñar estrategias de #[em marketing.]',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Supervisar el mantenimiento de equipos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Controlar el inventario de productos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Has acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, tu respuesta no es la correcta.',
+        },
+        {
+          id: 9,
+          texto:
+            '¿Qué es fundamental en el proceso de administración del talento humano?',
+          imagen: require('@/assets/componentes/preguntas img/Grupo 1102345.png'),
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Incrementar la producción sin importar los empleados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Integrar las capacidades y metas de los colaboradores.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Mantener a los empleados en una posición fija.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Evitar el uso de tecnologías modernas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Has acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, tu respuesta no es la correcta.',
+        },
+        {
+          id: 10,
+          texto:
+            '¿Cuál es un proceso utilizado para crear condiciones laborales satisfactorias?',
+          imagen: require('@/assets/componentes/preguntas img/Grupo 1102346.png'),
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Diseño de productos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Administración de la disciplina.',
+              esCorrecta: true,
+            },
+            { id: 'c', texto: 'Gestión financiera.', esCorrecta: false },
+            {
+              id: 'd',
+              texto: 'Reclutamiento y selección.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Has acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, tu respuesta no es la correcta.',
         },
       ],
-      mensaje_final_aprobado:
-        '¡Has completado el cuestionario exitosamente! Felicidades.',
+      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
       mensaje_final_reprobado:
-        'No has alcanzado la puntuación mínima para aprobar. Te animamos a intentarlo de nuevo.',
+        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
   computed: {},
