@@ -33,9 +33,7 @@
                 ]"
               />
             </div>
-            <div class="col">
-              {{ respuesta.texto }}
-            </div>
+            <div class="col" v-html="respuesta.texto"></div>
           </div>
         </div>
       </div>

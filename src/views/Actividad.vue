@@ -104,7 +104,7 @@ export default {
             },
             {
               id: 'c',
-              texto: 'Estrategias de #[em marketing] y ventas.',
+              texto: 'Estrategias de <em>marketing</em> y ventas.',
               esCorrecta: false,
             },
             {
@@ -231,7 +231,7 @@ export default {
             },
             {
               id: 'b',
-              texto: 'Diseñar estrategias de #[em marketing].',
+              texto: 'Diseñar estrategias de <em>marketing</em>.',
               esCorrecta: false,
             },
             {
