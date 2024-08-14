@@ -12,8 +12,8 @@
       |#[span.color-morado Lo invitamos a consultar el siguiente video, donde conocerá las funciones del área de talento humano.]
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video. 
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/ooLj28AGnOo" title="Funciones del área de talento humano" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Funciones del área de talento humano. 
     .tarjeta.d-none.d-lg-block(style="background-color: #f4eefe ").mb-5
       .row.justify-content-center.align-items-center.m-4
         .col-lg-7

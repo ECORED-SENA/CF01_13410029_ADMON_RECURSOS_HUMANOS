@@ -42,8 +42,7 @@ export default {
         subMenu: [
           {
             numero: '1.1',
-            titulo:
-              'Proceso de búsqueda de la información evaluación y síntesis de las fuentes',
+            titulo: 'Concepto',
             hash: 't_1_1',
           },
           {
@@ -114,32 +113,73 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
-    },
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Funciones del área de talento humano',
+      referencia:
+        'Economía Desde Casa. (2021). <em>Funciones del Departamento de Recursos Humanos</em> (video). YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=AcSI9FsUW4A',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Administración del talento humano',
+      significado:
+        'conjunto de políticas y prácticas necesarias para dirigir los aspectos gerenciales relacionados con las personas o recursos dentro de una organización, incluido el reclutamiento, selección, capacitación, recompensas y evaluación de desempeño.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Capacitación',
+      significado:
+        'actividades y programas diseñados para mejorar las habilidades y conocimientos de los empleados, permitiéndoles desempeñar sus funciones de manera más eficiente.',
+    },
+    {
+      termino: 'Contratación',
+      significado:
+        'proceso formal de empleo mediante el cual una empresa y un candidato acuerdan las condiciones de trabajo.',
+    },
+    {
+      termino: 'Evaluación de desempeño',
+      significado:
+        'proceso sistemático para medir y evaluar el rendimiento de los empleados en relación con los objetivos y estándares establecidos por la organización.',
+    },
+    {
+      termino: 'Inducción',
+      significado:
+        'proceso de orientación e integración de nuevos empleados en una organización, ayudándolos a familiarizarse con su entorno laboral y sus funciones.',
+    },
+    {
+      termino: 'Reclutamiento',
+      significado:
+        'proceso de atraer a candidatos potenciales para cubrir vacantes dentro de una organización.',
+    },
+    {
+      termino: 'Selección',
+      significado:
+        'proceso de evaluar y elegir a los candidatos más adecuados para ocupar puestos específicos dentro de una empresa.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Arias, F. (2004). <em>Administración de recursos humanos: para el alto desempeño</em>. Trillas.',
+    },
+    {
+      referencia:
+        'Blasco, R. (s. f.). <em>Modelos de selección de personal generados en la historia de la psicología</em>.',
+      link: 'https://paginaspersonales.deusto.es/mpoblete2/modelos.htm',
+    },
+    {
+      referencia:
+        'Chávez, E. (s. f.). <em>Manejo de los recursos humanos</em>.',
+    },
+    {
+      referencia:
+        'Chiavenato, I. (2009). <em>Administración de recursos humanos</em>. Mc Graw Hill.',
+    },
+    {
+      referencia:
+        'Serrano, L. (2008). <em>El contrato, definición y tipos</em>.',
+      link:
+        'https://www.am-abogados.com/blog/el-contrato-definicion-y-tipos/110/',
     },
   ],
   creditos: [
@@ -162,9 +202,19 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Orlando Vidal Perdomo',
+          cargo: 'Experto Temático',
+          centro: 'Regional Risaralda',
+        },
+        {
+          nombre: 'Didier Andrés Ospina Osorio',
+          cargo: 'Experto Temático',
+          centro: 'Regional Risaralda',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus ',
+          cargo: 'Evaluadora instruccional',
+          centro: 'Regional Antioquia - Centro de Servicios de Salud',
         },
       ],
     },
@@ -172,23 +222,28 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
+          nombre: 'Yerson Fabián Zárate Saavedra',
+          cargo: 'Diseñador de contenidos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
+          nombre: 'Edgar Mauricio Cortés García',
+          cargo: 'Desarrollador <em>full stack</em>',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: 'Cristhian Giovanni Gordillo Segura',
+          cargo: 'Intérprete Lenguaje de señas',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
+          nombre: 'Daniela Muñoz Bedoya',
+          cargo: 'Animador y Productor Multimedia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'María Carolina Tamayo López ',
+          cargo: 'Locución',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -202,17 +257,12 @@ export default {
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Jaime Hernán Tejada Llano',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Daniel Ricardo Mutis Gómez',
+          nombre: 'Margarita Marcela Medrano Gómez',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Margarita Marcela Medrano Gómez',
+          nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },

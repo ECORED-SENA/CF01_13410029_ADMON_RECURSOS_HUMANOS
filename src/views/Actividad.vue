@@ -25,7 +25,7 @@ export default {
           id: 1,
           texto:
             '¿Qué enfoque tiene la nueva administración gerencial respecto al ser humano en una organización?',
-          imagen: require('@/assets/componentes/preguntas img/Grupo 1102342.png'),
+          imagen: require('@/assets/componentes/preguntas/p1.png'),
           barajarRespuestas: false,
           opciones: [
             {
@@ -57,7 +57,7 @@ export default {
           id: 2,
           texto:
             '¿Cuál es uno de los elementos clave en la gestión del talento humano?',
-          imagen: require('@/assets/componentes/preguntas img/Grupo 1102343.png'),
+          imagen: require('@/assets/componentes/preguntas/p2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -77,7 +77,7 @@ export default {
             },
             {
               id: 'd',
-              texto: 'Minimización del uso de recursos',
+              texto: 'Minimización del uso de recursos.',
               esCorrecta: false,
             },
           ],
@@ -88,7 +88,7 @@ export default {
           id: 3,
           texto:
             '¿Qué se entiende por administración del talento humano según Chiavenato?',
-          imagen: require('@/assets/componentes/preguntas img/Grupo 1102344.png'),
+          imagen: require('@/assets/componentes/preguntas/p3.png'),
           opciones: [
             {
               id: 'a',
@@ -104,7 +104,7 @@ export default {
             },
             {
               id: 'c',
-              texto: 'Estrategias de marketing y ventas.',
+              texto: 'Estrategias de #[em marketing] y ventas.',
               esCorrecta: false,
             },
             {
@@ -120,7 +120,7 @@ export default {
           id: 4,
           texto:
             '¿Qué proceso NO es parte de la administración del talento humano?',
-          imagen: require('@/assets/componentes/preguntas img/Grupo 1102345.png'),
+          imagen: require('@/assets/componentes/preguntas/p4.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Reclutamiento y selección.', esCorrecta: false },
@@ -143,7 +143,7 @@ export default {
           id: 5,
           texto:
             '¿Cuál es una de las responsabilidades del área de talento humano en una organización?',
-          imagen: require('@/assets/componentes/preguntas img/Grupo 1102346.png'),
+          imagen: require('@/assets/componentes/preguntas/p5.png'),
           opciones: [
             {
               id: 'a',
@@ -156,7 +156,7 @@ export default {
               esCorrecta: true,
             },
             { id: 'c', texto: 'Supervisar la producción.', esCorrecta: false },
-            { id: 'd', texto: 'Diseñar productos nuevos', esCorrecta: false },
+            { id: 'd', texto: 'Diseñar productos nuevos.', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Has acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, tu respuesta no es la correcta.',
@@ -165,7 +165,7 @@ export default {
           id: 6,
           texto:
             '¿Cuál es un objetivo de los colaboradores dentro de una organización?',
-          imagen: require('@/assets/componentes/preguntas img/Grupo 1102342.png'),
+          imagen: require('@/assets/componentes/preguntas/p1.png'),
           opciones: [
             {
               id: 'a',
@@ -191,7 +191,7 @@ export default {
           id: 7,
           texto:
             '¿Qué término se usa actualmente para referirse a las personas que trabajan en las organizaciones, según la administración gerencial?',
-          imagen: require('@/assets/componentes/preguntas img/Grupo 1102343.png'),
+          imagen: require('@/assets/componentes/preguntas/p2.png'),
           opciones: [
             {
               id: 'a',
@@ -221,7 +221,7 @@ export default {
           id: 8,
           texto:
             '¿Cuál es una de las funciones del administrador del talento humano?',
-          imagen: require('@/assets/componentes/preguntas img/Grupo 1102344.png'),
+          imagen: require('@/assets/componentes/preguntas/p3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -231,7 +231,7 @@ export default {
             },
             {
               id: 'b',
-              texto: 'Diseñar estrategias de #[em marketing.]',
+              texto: 'Diseñar estrategias de #[em marketing].',
               esCorrecta: false,
             },
             {
@@ -252,7 +252,7 @@ export default {
           id: 9,
           texto:
             '¿Qué es fundamental en el proceso de administración del talento humano?',
-          imagen: require('@/assets/componentes/preguntas img/Grupo 1102345.png'),
+          imagen: require('@/assets/componentes/preguntas/p4.png'),
           opciones: [
             {
               id: 'a',
@@ -282,7 +282,7 @@ export default {
           id: 10,
           texto:
             '¿Cuál es un proceso utilizado para crear condiciones laborales satisfactorias?',
-          imagen: require('@/assets/componentes/preguntas img/Grupo 1102346.png'),
+          imagen: require('@/assets/componentes/preguntas/p5.png'),
           opciones: [
             {
               id: 'a',
