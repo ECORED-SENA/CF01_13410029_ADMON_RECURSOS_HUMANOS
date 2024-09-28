@@ -111,7 +111,7 @@
             p.mb-0 Pueden ser grandes, medianas o pequeñas, pymes, microempresas, unipersonales.
           div(titulo="En cuanto a su propiedad")
             p.mb-0 Pueden ser públicas o privadas.
-    p.mb-5(data-aos='fade-right') La organización ha planteado nuevas formas estratégicas de organización, en donde lo humano se concentra representando la posibilidad de cambio, transformación y potenciación de las empresas, desde la integración de capacidades, hasta la proyección de metas que conlleven al éxito. 
+    p.mb-5(data-aos='fade-right') La organización ha planteado nuevas formas estratégicas de organización, en donde lo humano se concentra representando la posibilidad de cambio, transformación y potenciación de las empresas, desde la integración de capacidades, hasta la proyección de metas que lleven al al éxito. 
     .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-3(data-aos="fade-right")
         .bloque-texto-d.color-primario.p-4

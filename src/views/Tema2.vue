@@ -27,7 +27,7 @@
           .row
             .col-lg-6.mb-4.mb-lg-0
               h4 Compensación y beneficios sociales
-              p ¿Cómo incentivar a las personas? Procesos utilizados para satisfacer las necesidades individuales. Incluye recompensas remuneración servicios sociales.
+              p ¿Cómo incentivar a las personas? Procesos utilizados para satisfacer las necesidades individuales. Incluye recompensas, remuneración, servicios sociales.
             .col-lg-6
               figure
                 img(src='@/assets/curso/temas/37.png', alt='')
@@ -41,7 +41,7 @@
           .row
             .col-lg-6.mb-4.mb-lg-0
               h4 Higiene y seguridad laboral
-              p ¿Cómo mejorar el clima laboral? Procesos utilizados para crear condiciones ambientales y psicológicas satisfactorias para las actividades de las personas. Incluye administración de la disciplina, higiene, seguridad calidad de vida y mantenimiento de las relaciones sindicales.
+              p ¿Cómo mejorar el clima laboral? Procesos utilizados para crear condiciones ambientales y psicológicas satisfactorias para las actividades de las personas. Incluye administración de la disciplina, higiene, seguridad, calidad de vida y mantenimiento de las relaciones sindicales.
             .col-lg-6
               figure
                 img(src='@/assets/curso/temas/39.png', alt='')
